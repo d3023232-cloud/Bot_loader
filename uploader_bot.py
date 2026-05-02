@@ -13,7 +13,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # ==============================================
 # ⚙️ НАСТРОЙКИ
 # ==============================================
-BOT_TOKEN = "ТОКЕН_БОТА_ЗАГРУЗЧИКА"  # <-- ВАЖНО! Токен от второго бота
+BOT_TOKEN = "8587181435:AAHK2D6gV8wOamWSleO-amCC9BmIrLb0nNw"  # <-- ВАЖНО! Токен от второго бота
 ADMIN_IDS = [5975768284, 8319217707, 6403805365]
 # ==============================================
 
@@ -24,7 +24,7 @@ bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=storage)
 
 # ========== БД ==========
-DATABASE_PATH = "/data/cinema.db"  # Путь к базе в томе
+DATABASE_PATH = "/app/shared/cinema.db"  # Путь к базе в томе
 
 def get_db_connection():
     """Создает соединение с БД с таймаутом для многопоточного доступа."""

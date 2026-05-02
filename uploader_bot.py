@@ -4,7 +4,7 @@ import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
-BOT_TOKEN = "ТОКЕН_ВТОРОГО_БОТА"          # замените
+BOT_TOKEN = "8587181435:AAHK2D6gV8wOamWSleO-amCC9BmIrLb0nNw"          # замените
 ADMIN_IDS = [5975768248, 8319217707, 6403805365]
 
 logging.basicConfig(level=logging.INFO)
